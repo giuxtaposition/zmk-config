@@ -22,6 +22,28 @@
             bindings = <&lt 5 DEL>;
             key-positions = <32 33>;
         };
+
+        grave-a-lower {
+            bindings = <&grave_a_lower>;
+            key-positions = <10 14>;
+            layers = <0>;
+        };
+    };
+
+    macros {
+        grave_a_lower: grave_a_lower {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(LS(U))>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N0 &kp E &kp KP_N0>,
+                <&macro_release>,
+                <&kp SPACE>;
+
+            label = "GRAVE_A_LOWER";
+        };
     };
 
     keymap {
