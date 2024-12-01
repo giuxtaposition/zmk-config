@@ -36,11 +36,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LC(LS(U))>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N0 &kp E &kp KP_N0>,
-                <&macro_tap>,
-                <&kp SPACE>;
+                <&kp LC(LS(U)) &kp KP_N0 &kp KP_N0 &kp E &kp KP_N0 &kp SPACE>;
 
             label = "GRAVE_A_LOWER";
         };
