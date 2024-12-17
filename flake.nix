@@ -26,7 +26,7 @@
         board = "nice_nano_v2";
         shield = "splitkb_aurora_sweep_%PART%";
 
-        zephyrDepsHash = "sha256-Pu9R0CDgRbvVmLmjUKIUunH1PxQU52F+MZoyydiMqpU=";
+        zephyrDepsHash = "sha256-af60GPYvrA4HAL0hF5ozWgTlTpuDaingv/RiBk5RU3M=";
 
         meta = {
           description = "ZMK firmware";
