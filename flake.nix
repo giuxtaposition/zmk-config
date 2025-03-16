@@ -24,7 +24,7 @@
         src = nixpkgs.lib.sourceFilesBySuffices self [".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig"];
 
         board = "nice_nano_v2";
-        shield = "splitkb_aurora_sweep_%PART%";
+        shield = "cradio_%PART%";
 
         zephyrDepsHash = "sha256-luj5U1c5Rnb5unrk2LVnM10h+lzbgS65/XG261mtA4M=";
 
