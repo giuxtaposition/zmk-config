@@ -23,6 +23,11 @@
             bindings = <&lt 5 DEL>;
             key-positions = <32 33>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <32 33 31 30>;
+        };
     };
 
     keymap {
