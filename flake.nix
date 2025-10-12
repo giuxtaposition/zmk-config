@@ -26,7 +26,7 @@
         board = "nice_nano_v2";
         shield = "cradio_%PART%";
 
-        zephyrDepsHash = "sha256-8h5lSnwxLTIqlvDNNl8fpv6hJFNF146Ck1qUWI/Cqqw=";
+        zephyrDepsHash = "sha256-0sIr+bA2kvkAp8B/UCHi/RNFL8LC+PH/CDXQwLUjjmg=";
 
         meta = {
           description = "ZMK firmware";
